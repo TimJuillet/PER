@@ -1,0 +1,81 @@
+@InProceedings{pmlr-v235-achtibat24a,
+  title = 	 {{A}ttn{LRP}: Attention-Aware Layer-Wise Relevance Propagation for Transformers},
+  author =       {Achtibat, Reduan and Hatefi, Sayed Mohammad Vakilzadeh and Dreyer, Maximilian and Jain, Aakriti and Wiegand, Thomas and Lapuschkin, Sebastian and Samek, Wojciech},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {135--168},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {7},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/achtibat24a/achtibat24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/achtibat24a.html},
+  abstract = 	 {Large Language Models are prone to biased predictions and hallucinations, underlining the paramount importance of understanding their model-internal reasoning process. However, achieving faithful attributions for the entirety of a black-box transformer model and maintaining computational efficiency is an unsolved challenge. By extending the Layer-wise Relevance Propagation attribution method to handle attention layers, we address these challenges effectively. While partial solutions exist, our method is the first to faithfully and holistically attribute not only input but also latent representations of transformer models with the computational efficiency similar to a single backward pass. Through extensive evaluations against existing methods on LLaMa 2, Mixtral 8x7b, Flan-T5 and vision transformer architectures, we demonstrate that our proposed approach surpasses alternative methods in terms of faithfulness and enables the understanding of latent representations, opening up the door for concept-based explanations. We provide an LRP library at https://github.com/rachtibat/LRP-eXplains-Transformers.}
+}
+
+@misc{binder2016layerwiserelevancepropagationneural,
+      title={Layer-wise Relevance Propagation for Neural Networks with Local Renormalization Layers}, 
+      author={Alexander Binder and Grégoire Montavon and Sebastian Bach and Klaus-Robert Müller and Wojciech Samek},
+      year={2016},
+      eprint={1604.00825},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/1604.00825}, 
+}
+
+@article{Selvaraju_2019,
+   title={Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization},
+   volume={128},
+   ISSN={1573-1405},
+   url={http://dx.doi.org/10.1007/s11263-019-01228-7},
+   DOI={10.1007/s11263-019-01228-7},
+   number={2},
+   journal={International Journal of Computer Vision},
+   publisher={Springer Science and Business Media LLC},
+   author={Selvaraju, Ramprasaath R. and Cogswell, Michael and Das, Abhishek and Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+   year={2019},
+   month=oct, pages={336–359} 
+   }
+
+@Article{Achtibat2023,
+	author={Achtibat, Reduan
+	and Dreyer, Maximilian
+	and Eisenbraun, Ilona
+	and Bosse, Sebastian
+	and Wiegand, Thomas
+	and Samek, Wojciech
+	and Lapuschkin, Sebastian},
+	title={From attribution maps to human-understandable explanations through Concept Relevance Propagation},
+	journal={Nature Machine Intelligence},
+	year={2023},
+	month={9},
+	day={01},
+	volume={5},
+	number={9},
+	pages={1006-1019},
+	abstract={The field of explainable artificial intelligence (XAI) aims to bring transparency to today's powerful but opaque deep learning models. While local XAI methods explain individual predictions in the form of attribution maps, thereby identifying `where' important features occur (but not providing information about `what' they represent), global explanation techniques visualize what concepts a model has generally learned to encode. Both types of method thus provide only partial insights and leave the burden of interpreting the model's reasoning to the user. Here we introduce the Concept Relevance Propagation (CRP) approach, which combines the local and global perspectives and thus allows answering both the `where' and `what' questions for individual predictions. We demonstrate the capability of our method in various settings, showcasing that CRP leads to more human interpretable explanations and provides deep insights into the model's representation and reasoning through concept atlases, concept-composition analyses, and quantitative investigations of concept subspaces and their role in fine-grained decision-making.},
+	issn={2522-5839},
+	doi={10.1038/s42256-023-00711-8},
+	url={https://doi.org/10.1038/s42256-023-00711-8}
+}
+
+@ARTICLE{9086075,
+  author={Zhang, Quanshi and Wang, Xin and Cao, Ruiming and Wu, Ying Nian and Shi, Feng and Zhu, Song-Chun},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Extraction of an Explanatory Graph to Interpret a CNN}, 
+  year={2021},
+  volume={43},
+  number={11},
+  pages={3863-3877},
+  keywords={Feature extraction;Visualization;Neural networks;Semantics;Annotations;Task analysis;Training;Convolutional neural networks;graphical model;interpretable deep learning},
+  doi={10.1109/TPAMI.2020.2992207}}
+
+@inproceedings{inproceedings,
+author = {Dreyer, Maximilian and Achtibat, Reduan and Wiegand, Thomas and Samek, Wojciech and Lapuschkin, Sebastian},
+year = {2023},
+month = {06},
+pages = {3829-3839},
+title = {Revealing Hidden Context Bias in Segmentation and Object Detection through Concept-specific Explanations},
+doi = {10.1109/CVPRW59228.2023.00397}
+}

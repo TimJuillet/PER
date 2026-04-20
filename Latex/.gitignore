@@ -1,0 +1,23 @@
+# Fichiers de compilation LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Dossier de sortie latexmk
+.auctex-auto/
+_minted*/
+
+# Garder le source et le PDF final
+!template.tex
+!template.pdf
