@@ -1,0 +1,17 @@
+.venv
+cache/*
+cifar-10-batches-py/*
+cifar-10/*
+data/*
+data2/*
+feature_viz/*
+feature_viz_cache/*
+feature_viz_cache_cifar-10/*
+feature_viz_cache_imagenet/*
+ImageNet_data/*
+output_viz/*
+VGG16_ImageNet/*
+cifar-10-python.tar.gz
+data.zip
+zennit-crp/*
+zennitcrp/*
